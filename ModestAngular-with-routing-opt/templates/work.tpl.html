@@ -1,0 +1,17 @@
+<div id="work" class="work">
+	<div class="work_1140">
+		<div class="work_title">
+			<div class="title_separator_work"></div>
+			<div class="title_text_work">LOVELY WORK.</div>
+		</div>
+		<div class="work_items" ng-controller="modestWorkController as works">
+			<div class="work_item" ng-repeat="work in works.works">
+				<img class="work_item-photo" ng-src="{{work.image}}" alt=""/>
+				<div class="work_item-desc">
+					 <div class="work_item-desc-text">{{work.description}}</div>
+				</div>
+			</div>
+		</div>
+		<form class="show_more_form" action="#/"><button class="more_photos_button">SHOW ME MORE</button></form>
+	</div>
+</div>

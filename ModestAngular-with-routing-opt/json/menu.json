@@ -1,0 +1,30 @@
+[
+    {
+      "path": "#/",
+      "title": "HOME"
+    },
+    {
+      "path": "#/about",
+      "title": "ABOUT"
+    },
+    {
+      "path": "#/work",
+      "title": "WORK"
+    },
+    {
+      "path": "#/team",
+      "title": "TEAM"
+    },
+    {
+      "path": "#/services",
+      "title": "SERVICES"
+    },
+		{
+      "path": "#/features",
+      "title": "FEATURES"
+    },
+		{
+      "path": "#/contact",
+      "title": "CONTACT"
+    }
+]

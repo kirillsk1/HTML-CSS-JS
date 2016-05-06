@@ -1,0 +1,16 @@
+<div id ="features" class="features">
+	<div class="features_1140">
+		<div class="features_title">
+			<div class="title_separator_features"></div>
+			<div class="title_text_features">FEATURES.</div>
+		</div>
+			
+	  <div class="features_items" ng-controller="modestFeaturesController as features">
+			<div class="features_item" ng-repeat="feature in features.features">
+				<img ng-src="{{feature.image}}" alt="{{feature.title}}"/></a>
+				<div class="features_item_title">{{feature.title}}</div>
+				<div class="features_item_text">{{feature.description}}</div>
+			</div>
+		</div>
+	</div>
+</div>

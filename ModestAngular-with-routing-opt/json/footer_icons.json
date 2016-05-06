@@ -1,0 +1,27 @@
+[
+			  {
+				"ref" : "#/",
+				"image": "img/footer_tw.png",
+				"alt": "Our Twitter"
+				},
+				{
+				"ref" : "#/",
+				"image": "img/footer_fb.png",
+				"alt": "Our Facebook"
+				},
+				{
+				"ref" : "#/",	
+				"image": "img/footer_skype.png",
+				"alt": "Our Skype"
+				},
+				{
+				"ref" : "#/",
+				"image": "img/footer_be.png",
+				"alt": "Our Be"
+				},
+				{
+				"ref" : "#/",
+				"image": "img/footer_in.png",
+				"alt": "Our Inline"
+				}
+]

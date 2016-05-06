@@ -1,0 +1,16 @@
+<div id="services" class="services">
+	<div class="services_1140">
+		<div class="services_title">
+			<div class="title_separator_services"></div>
+			<div class="title_text_services">WHAT WE DO.</div>
+		</div>
+			
+		<div class="services_items" ng-controller="modestServicesController as services">
+			<div class="services_item" ng-repeat="service in services.services">
+				<a href="#/"><img ng-src="{{service.image}}" alt="{{service.title}}"/></a>
+			  <div class="services_item_title">{{service.title}}</div>
+				<div class="services_item_text">{{service.description}}</div>
+			</div>
+		</div>
+	</div>
+</div>

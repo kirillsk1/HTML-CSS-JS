@@ -1,0 +1,42 @@
+<!DOCTYPE HTML>
+<html ng-app="modest">
+	<head>
+		<title>Modest</title>
+		<meta charset="utf-8"/>
+		<meta name="description" content="Modest marketplace">
+		<meta name="keywords" content="Modest, marketplace, design">
+		<meta name="viewport" content="width=device-width,initial-scale=1">
+		<script src="js/loadCSS.js"></script>
+		<script>loadCSS("css/normalize.css");</script>
+		<script>loadCSS("css/style.css");</script>
+	</head>
+	<body>
+		<header class="modest_header_navbar">
+			<div class="navbar_1140">
+				<div class="modest_logo">
+					<a href="#/"><img src="img/logo.png" width="99" height="19" alt="Modest"/></a>
+				</div>
+				<nav class="nav_bar" ng-controller="modestNavBarController as navbar">
+					<form action="{{link.path}}" ng-repeat="link in navbar.links"><button class="navbar_item">{{link.title}}</button></form>
+				</nav>
+		  </div>
+		</header>
+		
+		<!-- Роутинг -->
+		<ng-view></ng-view>
+		  
+		<footer class="modest_footer">
+		  <div class="footer_1140">
+		    <div class="footer_copyright"> &copy; Copyright 2014 by PSD Booster. All Rights Reserved.</div>
+			  <div class="footer_icons" ng-controller="modestFooterIconsController as icons">
+			    <a href="{{icon.ref}}" ng-repeat="icon in icons.icons"><img ng-src="{{icon.image}}" alt="{{icon.alt}}"/></a>
+			  </div>
+		  </div>
+		</footer>
+		
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.5/angular-route.min.js"></script>
+		<!-- скрипт для Angular -->
+		<script src="js/ang-app.js"></script>
+	</body>
+</html>

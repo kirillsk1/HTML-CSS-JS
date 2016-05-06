@@ -1,0 +1,22 @@
+  <div class="members_items">
+	<div class="member_item" ng-click="team.setTab(member.tab, $event)"  ng-repeat="member in team.members">
+	  <img class="member_item-image" ng-src="{{member.image}}" alt=""/>
+	  <div class="member_item-about">
+		<div class="member_item-about-name">{{member.name}}</div>
+		<div class="member_item-about-post">{{member.post}}</div>
+	  </div>
+				
+	  <div class="member_item-contacts">
+		  <a href="#"><div class="soc_img1"></div></a>
+		  <a href="#"><div class="soc_img2"></div></a>
+		  <a href="#"><div class="soc_img3"></div></a>
+	  </div>
+	</div>
+  </div>
+  
+  <div class="about_members"  ng-show="team.isActive(member.tab)" ng-repeat="member in team.members">
+    <div class="members_bio">Name: {{member.firstname}}</div>
+	  <div class="members_bio">Surname: {{member.surname}}</div>
+	  <div class="members_bio">Date of birth: {{member.birthday}}</div>
+	  <div class="members_bio">Bio: {{member.about}}</div> 
+  </div>
