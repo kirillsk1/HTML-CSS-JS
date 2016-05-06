@@ -1,0 +1,42 @@
+[
+		{
+			"tab" : 0,
+			"image": "img/member_1.png",
+			"name": "GLORIA BROMLEY",
+			"post": "CEO and Founder",
+			"firstname": "Gloria",
+			"surname": "Bromley",
+			"birthday": "24.04.1989",
+			"about": "I've always found logo design to be one of the most challenging things to get right. There's so much that a logo can say about a brand without actually saying it."
+		},
+		{
+			"tab" : 1,
+			"image": "img/member_2.png",
+			"name": "PAUL TORRES",
+			"post": "Head of Development",
+			"firstname": "Paul",
+			"surname": "Torres",
+			"birthday": "29.07.1988",
+			"about": "I've always found logo design to be one of the most challenging things to get right. There's so much that a logo can say about a brand without actually saying it."
+		},
+		{
+			"tab" : 2,
+			"image": "img/member_3.png",
+			"name": "JUDITH GILLETTE",
+			"post": "Graphic Designer",
+		  "firstname": "Judith",
+			"surname": "Gilette",
+			"birthday": "18.01.1990",
+			"about": "I've always found logo design to be one of the most challenging things to get right. There's so much that a logo can say about a brand without actually saying it."
+		},
+		{
+			"tab" : 3,
+			"image": "img/member_4.png",
+			"name": "DOLORES REED",
+			"post": "Client Service Director",
+			"firstname": "Dolores",
+			"surname": "Reed",
+			"birthday": "02.12.1989",
+			"about": "I've always found logo design to be one of the most challenging things to get right. There's so much that a logo can say about a brand without actually saying it."
+		}
+  ]
