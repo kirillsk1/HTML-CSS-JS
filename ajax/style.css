@@ -1,0 +1,13 @@
+#cities_list {
+	display: flex;
+	flex-direction: column;
+}
+
+
+.base_input {
+	width: 300px;
+}
+
+.base_button {
+	margin: 15px;
+}

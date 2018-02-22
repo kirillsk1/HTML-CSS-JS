@@ -1,0 +1,31 @@
+<html>
+	<head>
+		<title>Cities</title>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body>
+		<form>
+			<input type="text" id="search_city" class="base_input" placeholder="Поиск..." oninput="searchCity(event)"></input>
+		</form>
+		<div id="cities_list">
+		<!--
+			<div class="cities_item">
+		    <p>ASFSAF</p>
+				<button>asd</button>
+				<button>asd</button>
+			</div>
+		-->
+		
+		</div>
+		<form>
+			<input type="text" id="new_city" class="base_input"></input>
+			<button id="add_button" class="base_button" placeholder="Город" onclick="addCity(event)">Добавить</button>
+		</form>
+		<script type="text/x-template" id="template-item">
+					<input type="text" class="base_input"></input>
+					<button type="button" class="base_button" onclick="changeCity(event)">Изменить</button>
+					<button type="button" class="base_button" onclick="removeCity(event)">Удалить</button>
+		</script>
+		<script src="citiesHandler.js"></script>
+	</body>
+</html>
