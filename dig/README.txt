@@ -1,1 +1,3 @@
-Требуется сервер!
+Need a server!
+
+Angular + JQuery
