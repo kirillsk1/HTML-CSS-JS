@@ -1,0 +1,42 @@
+{
+"complex" : [
+	{
+		"name": "magic_wand",
+		"consistof": ["branches", "branches1", "circlet", "magic_stick"],
+		"image" : "img/magic_wand_lg.png",
+		"partof" : "partof0",
+		"tag" : "0"
+	}
+
+],
+"simple" : [
+	{
+		"name": "branches",
+		"consistof": [],
+		"image" : "img/branches_lg.png",
+		"partof" : "partof0",
+		"tag" : "0"
+	},
+	{
+		"name": "branches1",
+		"consistof": [],
+		"image" : "img/branches_lg.png",
+		"partof" : "partof0",
+		"tag" : "0"
+	},
+	{
+		"name": "magic_stick",
+		"consistof": [],
+		"image" : "img/magic_stick_lg.png",
+		"partof" : "partof0",
+		"tag" : "0"
+	},
+	{
+		"name": "circlet",
+		"consistof": [],
+		"image" : "img/circlet_lg.png",
+		"partof" : "partof0",
+		"tag" : "0"
+	}
+]
+}

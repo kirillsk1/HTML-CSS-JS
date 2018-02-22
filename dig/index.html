@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html ng-app="dota2ItemsGame">
+<head>
+	<title>dig</title>
+	<link rel="stylesheet" type="text/css" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<script src="js/angular.min.js"></script>
+	<script src="js/jquery-1.12.2.min.js"></script>
+	<script src="js/jquery-ui.min.js"></script>
+	<script src="//unpkg.com/angular-ui-router/release/angular-ui-router.min.js"></script>
+</head>
+<body>
+<div class="mainDiv" ng-controller="mainController">
+<!--<button class="main-start-btn" ng-click="startGame()">Start game</button>
+
+	<div class="main-item">
+		<img class="main-item-image" src="{{mainItem.image}}" alt="{{mainItem.name}}">
+	</div>
+
+	<div class="main-placeholders-container">
+		<div class="main-placeholders-item droppable" ng-repeat="items in mainItem.consistof"></div>
+	</div>
+
+	<div class="main-parts-container">
+		<div class="main-parts-item"  ng-repeat="item in resultItems">
+			<img src="{{item.image}}" class="{{item.partof}}" alt="{{item.name}}">
+		</div>
+	</div>-->
+<main-dir></main-dir>
+<script>
+		$(document).ready(function(){
+			var images = ['../img/background/bg-1.jpg',
+			              '../img/background/bg-2.jpg',
+			              '../img/background/bg-3.jpg'];
+
+			var randomNumber = Math.floor(Math.random() * images.length);
+			var bgImg = 'url(' + images[randomNumber] + ')';
+
+			$('body').css({'background':bgImg, 'background-size':'cover', 'background-repeat' : 'no-repeat'});
+			$('.mainDiv').css({'height': $(window).height()})
+		});
+</script>
+</div>
+
+<script src="js/ang-app.js"></script>
+</body>
+</html>

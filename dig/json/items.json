@@ -1,0 +1,890 @@
+{
+"complex" : [
+	{
+		"name": "soul_booster",
+		"consistof": ["point_booster", "energy_booster", "vitality_booster"],
+		"image" : "img/soul_booster_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "ring_of_aquila",
+		"consistof": ["wraith_band", "ring_of_basilius"],
+		"image" : "img/ring_of_aquila_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "wraith_band",
+		"consistof": ["circlet", "slippers", "recipe"],
+		"image" : "img/wraith_band_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "ring_of_basilius",
+		"consistof": ["sobi_mask", "ring_of_protection"],
+		"image" : "img/ring_of_basilius_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "glimmer_cape",
+		"consistof": ["cloak", "shadow_amulet"],
+		"image" : "img/glimmer_cape_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "lesser_crit",
+		"consistof": ["blades_of_attack", "broadsword", "recipe"],
+		"image" : "img/lesser_crit_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "hood_of_defiance",
+		"consistof": ["ring_of_regen", "cloak", "ring_of_health"],
+		"image" : "img/hood_of_defiance_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "mask_of_madness",
+		"consistof": ["lifesteal", "recipe"],
+		"image" : "img/mask_of_madness_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "magic_wand",
+		"consistof": ["branches", "branches1", "circlet", "magic_stick"],
+		"image" : "img/magic_wand_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "null_talisman",
+		"consistof": ["mantle", "circlet", "recipe"],
+		"image" : "img/null_talisman_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "null_talisman1",
+		"consistof": ["mantle", "circlet", "recipe"],
+		"image" : "img/null_talisman_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "iron_talon",
+		"consistof": ["quelling_blade", "ring_of_protection", "recipe"],
+		"image" : "img/iron_talon_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "force_staff",
+		"consistof": ["staff_of_wizardry", "ring_of_regen", "recipe"],
+		"image" : "img/force_staff_lg.png",
+		"partof" : "partof0"
+	},
+
+	{
+		"name": "armlet",
+		"consistof": ["blades_of_attack", "helm_of_iron_will", "gloves", "recipe"],
+		"image" : "img/armlet_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "vanguard",
+		"consistof": ["ring_of_health", "vitality_booster", "stout_shield"],
+		"image" : "img/vanguard_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "helm_of_the_dominator",
+		"consistof": ["gloves", "headdress", "recipe"],
+		"image" : "img/helm_of_the_dominator_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "headdress",
+		"consistof": ["branches", "ring_of_regen", "recipe"],
+		"image" : "img/headdress_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "veil_of_discord",
+		"consistof": ["helm_of_iron_will", "null_talisman", "null_talisman1", "recipe"],
+		"image" : "img/veil_of_discord_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "invis_sword",
+		"consistof": ["claymore", "shadow_amulet"],
+		"image" : "img/invis_sword_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "blade_mail",
+		"consistof": ["broadsword", "chainmail", "robe"],
+		"image" : "img/blade_mail_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "blade_mail",
+		"consistof": ["broadsword", "chainmail", "robe"],
+		"image" : "img/blade_mail_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "dragon_lance",
+		"consistof": ["boots_of_elves", "boots_of_elves1", "ogre_axe"],
+		"image" : "img/dragon_lance_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "poor_mans_shield",
+		"consistof": ["slippers", "slippers1", "stout_shield"],
+		"image" : "img/poor_mans_shield_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "buckler",
+		"consistof": ["chainmail", "branches", "recipe"],
+		"image" : "img/buckler_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "aether_lens",
+		"consistof": ["ring_of_health", "energy_booster", "recipe"],
+		"image" : "img/aether_lens_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "basher",
+		"consistof": ["javelin", "belt_of_strength", "recipe"],
+		"image" : "img/basher_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "sange",
+		"consistof": ["ogre_axe", "belt_of_strength", "recipe"],
+		"image" : "img/sange_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "bracer",
+		"consistof": ["gauntlets", "circlet", "recipe"],
+		"image" : "img/bracer_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "urn_of_shadows",
+		"consistof": ["gauntlets", "gauntlets1", "sobi_mask", "recipe"],
+		"image" : "img/urn_of_shadows_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "necronomicon",
+		"consistof": ["belt_of_strength", "staff_of_wizardry", "recipe"],
+		"image" : "img/necronomicon_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "bfury",
+		"consistof": ["broadsword", "claymore", "quelling_blade", "pers"],
+		"image" : "img/bfury_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "crimson_guard",
+		"consistof": ["buckler", "vanguard", "recipe"],
+		"image" : "img/crimson_guard_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "yasha",
+		"consistof": ["boots_of_elves", "blade_of_alacrity", "recipe"],
+		"image" : "img/yasha_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "soul_ring",
+		"consistof": ["ring_of_regen", "sobi_mask", "recipe"],
+		"image" : "img/soul_ring_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "tranquil_boots",
+		"consistof": ["ring_of_regen", "boots", "wind_lace"],
+		"image" : "img/tranquil_boots_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "dagon",
+		"consistof": ["staff_of_wizardry", "null_talisman", "recipe"],
+		"image" : "img/dagon_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "ethereal_blade",
+		"consistof": ["ghost", "eagle"],
+		"image" : "img/ethereal_blade_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "black_king_bar",
+		"consistof": ["ogre_axe", "mithril_hammer", "recipe"],
+		"image" : "img/black_king_bar_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "echo_sabre",
+		"consistof": ["ogre_axe", "oblivion_staff"],
+		"image" : "img/echo_sabre_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "phase_boots",
+		"consistof": ["blades_of_attack", "blades_of_attack1", "boots"],
+		"image" : "img/phase_boots_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "cyclone",
+		"consistof": ["staff_of_wizardry", "void_stone", "wind_lace", "recipe"],
+		"image" : "img/cyclone_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "silver_edge",
+		"consistof": ["ultimate_orb", "invis_sword", "recipe"],
+		"image" : "img/silver_edge_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "lotus_orb",
+		"consistof": ["platemail", "energy_booster", "pers"],
+		"image" : "img/lotus_orb_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "maelstrom",
+		"consistof": ["mithril_hammer", "gloves", "recipe"],
+		"image" : "img/maelstrom_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "power_treads",
+		"consistof": ["belt_of_strength", "gloves", "boots"],
+		"image" : "img/power_treads_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "medallion_of_courage",
+		"consistof": ["chainmail", "sobi_mask", "blight_stone"],
+		"image" : "img/medallion_of_courage_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "solar_crest",
+		"consistof": ["talisman_of_evasion", "medallion_of_courage"],
+		"image" : "img/solar_crest_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "radiance",
+		"consistof": ["relic", "recipe"],
+		"image" : "img/radiance_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "shivas_guard",
+		"consistof": ["platemail", "mystic_staff", "recipe"],
+		"image" : "img/shivas_guard_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "diffusal_blade",
+		"consistof": ["robe", "blade_of_alacrity", "blade_of_alacrity1", "recipe"],
+		"image" : "img/diffusal_blade_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "oblivion_staff",
+		"consistof": ["quarterstaff", "robe", "sobi_mask"],
+		"image" : "img/oblivion_staff_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "oblivion_staff1",
+		"consistof": ["quarterstaff", "robe", "sobi_mask"],
+		"image" : "img/oblivion_staff_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "arcane_boots",
+		"consistof": ["boots", "energy_booster"],
+		"image" : "img/arcane_boots_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "rod_of_atos",
+		"consistof": ["staff_of_wizardry", "staff_of_wizardry1", "vitality_booster"],
+		"image" : "img/rod_of_atos_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "monkey_king_bar",
+		"consistof": ["javelin", "javelin1", "demon_edge"],
+		"image" : "img/monkey_king_bar_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "bloodstone",
+		"consistof": ["soul_booster", "soul_ring", "recipe"],
+		"image" : "img/bloodstone_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "desolator",
+		"consistof": ["mithril_hammer", "mithril_hammer1", "blight_stone"],
+		"image" : "img/desolator_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "pers",
+		"consistof": ["ring_of_health", "void_stone"],
+		"image" : "img/pers_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "pers1",
+		"consistof": ["ring_of_health", "void_stone"],
+		"image" : "img/pers_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "ancient_janggo",
+		"consistof": ["sobi_mask", "bracer", "wind_lace", "recipe"],
+		"image" : "img/ancient_janggo_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "orchid",
+		"consistof": ["oblivion_staff", "oblivion_staff1", "recipe"],
+		"image" : "img/orchid_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "greater_crit",
+		"consistof": ["demon_edge", "lesser_crit", "recipe"],
+		"image" : "img/greater_crit_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "manta",
+		"consistof": ["ultimate_orb", "yasha", "recipe"],
+		"image" : "img/manta_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "heavens_halberd",
+		"consistof": ["talisman_of_evasion", "sange"],
+		"image" : "img/heavens_halberd_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "hand_of_midas",
+		"consistof": ["gloves", "recipe"],
+		"image" : "img/hand_of_midas_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "mekansm",
+		"consistof": ["buckler", "headdress", "recipe"],
+		"image" : "img/mekansm_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "ultimate_scepter",
+		"consistof": ["ogre_axe", "blade_of_alacrity", "staff_of_wizardry", "point_booster"],
+		"image" : "img/ultimate_scepter_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "butterfly",
+		"consistof": ["quarterstaff", "talisman_of_evasion", "eagle"],
+		"image" : "img/butterfly_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "sphere",
+		"consistof": ["ultimate_orb", "pers", "recipe"],
+		"image" : "img/sphere_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "sange_and_yasha",
+		"consistof": ["sange", "yasha"],
+		"image" : "img/sange_and_yasha_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "travel_boots",
+		"consistof": ["boots", "recipe"],
+		"image" : "img/travel_boots_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "vladmir",
+		"consistof": ["lifesteal", "ring_of_basilius", "headdress"],
+		"image" : "img/vladmir_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "refresher",
+		"consistof": ["pers", "pers1", "recipe"],
+		"image" : "img/refresher_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "rapier",
+		"consistof": ["demon_edge", "relic"],
+		"image" : "img/rapier_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "hurricane_pike",
+		"consistof": ["force_staff", "dragon_lance", "recipe"],
+		"image" : "img/hurricane_pike_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "skadi",
+		"consistof": ["ultimate_orb", "ultimate_orb1", "point_booster", "orb_of_venom"],
+		"image" : "img/skadi_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "moon_shard",
+		"consistof": ["hyperstone", "hyperstone1"],
+		"image" : "img/moon_shard_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "pipe",
+		"consistof": ["headdress", "hood_of_defiance", "recipe"],
+		"image" : "img/pipe_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "sheepstick",
+		"consistof": ["ultimate_orb", "void_stone", "mystic_staff"],
+		"image" : "img/sheepstick_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "abyssal_blade",
+		"consistof": ["vanguard", "basher", "recipe"],
+		"image" : "img/abyssal_blade_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "assault",
+		"consistof": ["chainmail", "platemail", "hyperstone", "recipe"],
+		"image" : "img/assault_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "mjollnir",
+		"consistof": ["maelstrom", "hyperstone", "recipe"],
+		"image" : "img/mjollnir_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "guardian_greaves",
+		"consistof": ["mekansm", "arcane_boots", "recipe"],
+		"image" : "img/guardian_greaves_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "octarine_core",
+		"consistof": ["soul_booster", "mystic_staff"],
+		"image" : "img/octarine_core_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "bloodthorn",
+		"consistof": ["orchid", "lesser_crit", "recipe"],
+		"image" : "img/bloodthorn_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "heart",
+		"consistof": ["reaver", "vitality_booster", "recipe"],
+		"image" : "img/heart_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "satanic",
+		"consistof": ["reaver", "lifesteal", "mithril_hammer"],
+		"image" : "img/satanic_lg.png",
+		"partof" : "partof0"
+	}
+
+],
+"simple" : [
+	{
+		"name": "energy_booster",
+		"consistof": [],
+		"image" : "img/energy_booster_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "vitality_booster",
+		"consistof": [],
+		"image" : "img/vitality_booster_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "point_booster",
+		"consistof": [],
+		"image" : "img/point_booster_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "platemail",
+		"consistof": [],
+		"image" : "img/platemail_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "talisman_of_evasion",
+		"consistof": [],
+		"image" : "img/talisman_of_evasion_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "hyperstone",
+		"consistof": [],
+		"image" : "img/hyperstone_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "hyperstone1",
+		"consistof": [],
+		"image" : "img/hyperstone_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "ultimate_orb",
+		"consistof": [],
+		"image" : "img/ultimate_orb_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "ultimate_orb1",
+		"consistof": [],
+		"image" : "img/ultimate_orb_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "demon_edge",
+		"consistof": [],
+		"image" : "img/demon_edge_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "mystic_staff",
+		"consistof": [],
+		"image" : "img/mystic_staff_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "reaver",
+		"consistof": [],
+		"image" : "img/reaver_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "eagle",
+		"consistof": [],
+		"image" : "img/eagle_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "relic",
+		"consistof": [],
+		"image" : "img/relic_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "branches",
+		"consistof": [],
+		"image" : "img/branches_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "branches1",
+		"consistof": [],
+		"image" : "img/branches_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "ring_of_protection",
+		"consistof": [],
+		"image" : "img/ring_of_protection_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "wind_lace",
+		"consistof": [],
+		"image" : "img/wind_lace_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "gauntlets",
+		"consistof": [],
+		"image" : "img/gauntlets_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "gauntlets1",
+		"consistof": [],
+		"image" : "img/gauntlets_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "stout_shield",
+		"consistof": [],
+		"image" : "img/stout_shield_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "magic_stick",
+		"consistof": [],
+		"image" : "img/magic_stick_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "slippers",
+		"consistof": [],
+		"image" : "img/slippers_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "slippers1",
+		"consistof": [],
+		"image" : "img/slippers_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "quelling_blade",
+		"consistof": [],
+		"image" : "img/quelling_blade_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "sobi_mask",
+		"consistof": [],
+		"image" : "img/sobi_mask_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "mantle",
+		"consistof": [],
+		"image" : "img/mantle_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "ring_of_regen",
+		"consistof": [],
+		"image" : "img/ring_of_regen_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "circlet",
+		"consistof": [],
+		"image" : "img/circlet_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "blight_stone",
+		"consistof": [],
+		"image" : "img/blight_stone_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "boots",
+		"consistof": [],
+		"image" : "img/boots_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "belt_of_strength",
+		"consistof": [],
+		"image" : "img/belt_of_strength_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "orb_of_venom",
+		"consistof": [],
+		"image" : "img/orb_of_venom_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "gloves",
+		"consistof": [],
+		"image" : "img/gloves_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "boots_of_elves",
+		"consistof": [],
+		"image" : "img/boots_of_elves_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "boots_of_elves1",
+		"consistof": [],
+		"image" : "img/boots_of_elves_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "blades_of_attack",
+		"consistof": [],
+		"image" : "img/blades_of_attack_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "blades_of_attack1",
+		"consistof": [],
+		"image" : "img/blades_of_attack_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "cloak",
+		"consistof": [],
+		"image" : "img/cloak_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "robe",
+		"consistof": [],
+		"image" : "img/robe_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "chainmail",
+		"consistof": [],
+		"image" : "img/chainmail_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "ring_of_health",
+		"consistof": [],
+		"image" : "img/ring_of_health_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "ogre_axe",
+		"consistof": [],
+		"image" : "img/ogre_axe_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "quarterstaff",
+		"consistof": [],
+		"image" : "img/quarterstaff_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "void_stone",
+		"consistof": [],
+		"image" : "img/void_stone_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "blade_of_alacrity",
+		"consistof": [],
+		"image" : "img/blade_of_alacrity_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "blade_of_alacrity1",
+		"consistof": [],
+		"image" : "img/blade_of_alacrity_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "helm_of_iron_will",
+		"consistof": [],
+		"image" : "img/helm_of_iron_will_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "staff_of_wizardry",
+		"consistof": [],
+		"image" : "img/staff_of_wizardry_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "staff_of_wizardry1",
+		"consistof": [],
+		"image" : "img/staff_of_wizardry_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "broadsword",
+		"consistof": [],
+		"image" : "img/broadsword_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "lifesteal",
+		"consistof": [],
+		"image" : "img/lifesteal_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "claymore",
+		"consistof": [],
+		"image" : "img/claymore_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "shadow_amulet",
+		"consistof": [],
+		"image" : "img/shadow_amulet_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "javelin",
+		"consistof": [],
+		"image" : "img/javelin_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "javelin1",
+		"consistof": [],
+		"image" : "img/javelin_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "ghost",
+		"consistof": [],
+		"image" : "img/ghost_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "mithril_hammer",
+		"consistof": [],
+		"image" : "img/mithril_hammer_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "mithril_hammer1",
+		"consistof": [],
+		"image" : "img/mithril_hammer_lg.png",
+		"partof" : "partof0"
+	},
+	{
+		"name": "recipe",
+		"consistof": [],
+		"image" : "img/recipe_lg.png",
+		"partof" : "partof0"
+	}
+]
+}
