@@ -1,0 +1,46 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  	<link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue"></script>
+  </head>
+  <body>
+    <div id="app">
+      <div class="block-container">
+        <div class="block" v-bind:style="{left: block.class.left + 'px', top: block.class.top + 'px'}"
+                           v-for="(block, index) in blocks"
+                           v-on:mousedown="mousedown($event)"
+                           v-on:mouseup="mouseup($event, index)"
+                            >
+          <a id="close" href="#" title="Close block" v-if="editorMode" v-on:click.prevent="deleteBlock(index)">&times;</a>
+          <a id="change" href="#" title="Remove current media file" v-if="editorMode && block.file" v-on:click.prevent="deleteFile(index)">&#8634;</a>
+          <div v-if="!block.file" class="item-container">
+            <div class="image-upload">
+              <label>
+                <img src="img/share.png"/>
+                <input type="file" v-if="editorMode" v-on:change="onFileChange($event, index)" alt="Click to upload file">
+              </label>
+            </div>
+          </div>
+          <div v-else-if="block.type === 'image'" class="item-container" >
+            <img v-bind:src="block.file"/>
+          </div>
+          <div v-else-if="block.type === 'audio'" class="item-container">
+            <audio controls>
+              <source v-bind:src="block.file">
+            </audio>
+          </div>
+          <div v-else-if="block.type === 'video'" class="item-container">
+            <video controls>
+              <source v-bind:src="block.file">
+            </video>
+          </div>
+        </div>
+        <button type="button" v-on:click="startStop()">{{this.editorMode ? 'Play' : 'Edit'}}</button>
+        <button v-if="this.editorMode" type="button" v-on:click="addBlock()">Add block</button>
+        <button v-if="this.editorMode" type="button" v-on:click="clearBlocks()">Clear</button>
+      </div>
+    </div>
+    <script src="js/vue-app.js"></script>
+  </body>
+</html>
